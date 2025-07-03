@@ -4,8 +4,12 @@ name: Cornichon
 type: shield
 url: https://github.com/vadimitri/zmk-cornichon
 requires: [pro_micro]
+exposes: [i2c_oled]
+
 features:
   - keys
+  - display
+
 siblings:
   - crnchn_left
   - crnchn_right
