@@ -1,0 +1,22 @@
+#include "cornichon.dtsi"
+
+&kscan0 {
+    // Reversed column order to fix mirroring issue
+    col-gpios =
+        <&pro_micro 14 GPIO_ACTIVE_HIGH>,    // Column 6 (was innermost, now outermost)
+        <&pro_micro 15 GPIO_ACTIVE_HIGH>,    // Column 5
+        <&pro_micro 18 GPIO_ACTIVE_HIGH>,    // Column 4
+        <&pro_micro 19 GPIO_ACTIVE_HIGH>,    // Column 3
+        <&pro_micro 20 GPIO_ACTIVE_HIGH>,    // Column 2
+        <&pro_micro 21 GPIO_ACTIVE_HIGH>;    // Column 1 (was outermost, now innermost)
+
+    row-gpios =
+        <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 1
+        <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 2
+        <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 3
+        <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // Row 4
+};
+
+&default_transform {
+    col-offset = <6>;  // Right side starts at column 6 in the matrix
+};

@@ -1,0 +1,11 @@
+file_format: "1"
+id: cornichon
+name: Cornichon
+type: shield
+url: https://github.com/vadimitri/zmk-cornichon
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - cornichon_left
+  - cornichon_right
