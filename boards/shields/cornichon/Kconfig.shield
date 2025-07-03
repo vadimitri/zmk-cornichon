@@ -1,5 +1,5 @@
-config SHIELD_CORNICHON_LEFT
-    def_bool $(shields_list_contains,cornichon_left)
+config SHIELD_CRNCHN_LEFT
+    def_bool $(shields_list_contains,crnchn_left)
 
-config SHIELD_CORNICHON_RIGHT
-    def_bool $(shields_list_contains,cornichon_right)
+config SHIELD_CRNCHN_RIGHT
+    def_bool $(shields_list_contains,crnchn_right)
