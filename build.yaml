@@ -1,6 +1,7 @@
 include:
   - board: nice_nano_v2
     shield: crnchn_left nice_view
+    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: crnchn_right nice_view
     snippet: zmk-usb-logging
