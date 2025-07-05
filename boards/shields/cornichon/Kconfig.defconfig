@@ -1,4 +1,4 @@
-if SHIELD_CRNCHN_LEFT
+if SHIELD_CRNCHN_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Cornichon"
@@ -21,8 +21,6 @@ config I2C
 config SSD1306
     default y
 
-endif # ZMK_DISPLAY
-
-
+endif
 
 endif
