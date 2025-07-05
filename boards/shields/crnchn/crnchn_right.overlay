@@ -1,4 +1,4 @@
-#include "cornichon.dtsi"
+#include "crnchn.dtsi"
 
 &default_transform {
     col-offset = <6>;  // Offset for right side
