@@ -1,7 +1,7 @@
 if SHIELD_CRNCHN_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Cornichon"
+    default "cornichon"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
