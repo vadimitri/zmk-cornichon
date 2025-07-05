@@ -1,4 +1,4 @@
-#include "cornichon.dtsi"
+#include "crnchn.dtsi"
 
 &kscan0 {
     col-gpios =
