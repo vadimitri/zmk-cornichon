@@ -59,7 +59,7 @@
                 &kp TAB          &kp AT          &kp N7          &kp N8          &kp N9          &kp DQT          &kp UNDER          &kp SLASH          &kp STAR          &kp HASH          &kp PIPE          &kp BSPC
                 &kp ESC          &kp EQUAL          &kp N4          &kp N5          &kp N6          &kp N0          &kp MINUS          &kp LPAR          &kp RPAR          &kp PLUS          &to 2         &kp RET
                 &kp TILDE          &trans          &kp N1         &kp N2          &kp N3          &kp PRCNT          &kp LBRC          &kp LBKT          &kp RBKT          &kp RBRC          &kp CARET   &trans
-                                                                                            &to 0 &sk LGUI  &kp LCTRL     &to 3
+                                                                                            &to 0 &sk LGUI  &kp LCTRL   &to 3
             >;
         };
 
@@ -95,7 +95,7 @@
                 &trans          &trans          &trans          &kp C_BRI_DN          &kp C_BRI_UP          &trans          &kp C_PREV          &kp C_PP          &kp C_NEXT      &trans         &trans          &kp BSPC
                 &trans          &trans          &trans          &kp C_VOL_DN         &kp C_VOL_UP          &kp C_MUTE          &trans         &trans          &trans          &trans          &trans          &trans
                 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &kp C_AL_LOCK          &kp C_SLEEP
-                                                                                             &to 0 &sk LGUI   &sk LCTRL     &to 1
+                                                                                             &to 0 &sk  LGUI   &sk LCTRL     &to 1
             >;
         };
     };
@@ -137,16 +137,6 @@
     };
 };
 
-// Conditional layers
-/ {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-};
 
 / {
     macros {
