@@ -74,7 +74,7 @@
 //                              │SPACE│ L0  │                   │CTRL │ L1  │
 //                              └─────┴─────┘                   └─────┴─────┘
             bindings = <
-                &kp TAB        &trans &msc SCRL_LEFT    &mmv MOVE_UP         &msc SCRL_RIGHT        &trans      &kp C_AC_BACK          &mb LCLK          &mb RCLK      &kp C_AC_FORWARD          &trans        &kp DEL
+                &kp TAB        &trans &msc SCRL_LEFT    &mmv MOVE_UP         &msc SCRL_RIGHT        &trans      &kp C_AC_BACK          &mkp LCLK          &mkp RCLK      &kp C_AC_FORWARD          &trans        &kp DEL
                 &kp ESC          &trans          &mmv MOVE_LEFT          &mmv MOVE_DOWN          &mmv MOVE_RIGHT          &trans          &kp LEFT       &kp DOWN       &kp UP        &kp RIGHT        &trans        &kp RET
                 &trans          &trans          &trans          &msc SCRL_DOWN          &msc SCRL_UP          &cmdopt          &trans        &trans &trans &trans &trans &trans
                                                                                      &kp SPACE    &to 0   &sk LCTRL     &to 1
