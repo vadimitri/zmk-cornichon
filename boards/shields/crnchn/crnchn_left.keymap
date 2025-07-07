@@ -56,9 +56,9 @@
 //                               │SPACE│ L0  │                   │CTRL │ L3  │
 //                               └─────┴─────┘                   └─────┴─────┘
             bindings = <
-                &kp TAB          &kp AT          &kp N7          &kp N8          &kp N9          &kp DQT          &kp UNDER          &kp SLSH          &kp STAR          &kp HASH          &kp PIPE          &kp DEL
+                &kp TAB          &kp AT          &kp N7          &kp N8          &kp N9          &kp DQT          &kp UNDER          &kp SLASH          &kp STAR          &kp HASH          &kp PIPE          &kp DEL
                 &kp ESC          &kp EQUAL          &kp N4          &kp N5          &kp N6          &kp N0          &kp MINUS          &kp LPAR          &kp RPAR          &kp PLUS          &to 2         &kp RET
-                &kp TILDE          &euro          &kp N1         &kp N2          &kp N3          &kp PRCNT          &kp LBRC          &kp LBKT          &kp RBKT          &kp RBRC          &kp CARET   &key_repeat
+                &kp TILDE          &trans          &kp N1         &kp N2          &kp N3          &kp PRCNT          &kp LBRC          &kp LBKT          &kp RBKT          &kp RBRC          &kp CARET   &trans
                                                                                         &kp SPACE    &to 0   &kp LCTRL     &to 3
             >;
         };
