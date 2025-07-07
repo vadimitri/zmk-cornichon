@@ -92,8 +92,8 @@
 //                                  │SPACE│ L0  │                   │CTRL │ L1  │
 //                                  └─────┴─────┘                   └─────┴─────┘
             bindings = <
-                &trans          &trans          &trans          &kp C_BRI_DOWN          &kp C_BRI_UP          &trans          &kp C_PREV          &kp C_PP          &kp C_NEXT      &trans         &trans          &kp DEL
-                &trans          &trans          &trans          &kp C_VOL_DOWN         &kp C_VOL_UP          &kp C_MUTE          &trans         &trans          &trans          &trans          &trans          &trans
+                &trans          &trans          &trans          &kp C_BRI_DN          &kp C_BRI_UP          &trans          &kp C_PREV          &kp C_PP          &kp C_NEXT      &trans         &trans          &kp DEL
+                &trans          &trans          &trans          &kp C_VOL_DN         &kp C_VOL_UP          &kp C_MUTE          &trans         &trans          &trans          &trans          &trans          &trans
                 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &kp C_AL_LOCK          &kp C_SLEEP
                                                                                          &kp SPACE    &to 0   &sk LCTRL     &to 1
             >;
