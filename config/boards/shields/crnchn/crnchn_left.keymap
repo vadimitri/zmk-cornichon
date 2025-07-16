@@ -51,7 +51,7 @@
                 &kp  TAB         &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSPC
                 &kp ESC          &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp RET
                 &sk LSHIFT       &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp QMARK    &sk RSHIFT
-                                                                &kp SPACE    &sk LGUI   &kp ALT      &to 1
+                                                                &kp SPACE    &sk LGUI   &kp LALT    &to 1
 
             >;
         };
@@ -103,7 +103,7 @@
 //                                  │SPACE│ L0  │                   │CTRL │ L1  │
 //                                  └─────┴─────┘                   └─────┴─────┘
             bindings = <
-                &trans          &trans          &trans          &kp K_BRI_DN          &kp K_BRI_UP          &trans          &kp C_PREV          &kp C_PP          &kp C_NEXT      &trans         &trans          &kp BSPC
+                &trans          &trans          &trans          &kp C_BRI_DN          &kp C_BRI_UP          &trans          &kp C_PREV          &kp C_PP          &kp C_NEXT      &trans         &trans          &kp BSPC
                 &trans          &trans          &trans          &kp K_VOL_DN         &kp K_VOL_UP          &kp K_MUTE          &trans         &trans          &trans          &trans          &trans          &trans
                 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &kp C_AL_LOCK          &kp C_SLEEP
                                                                                              &to 0 &sk  LGUI   &sk LCTRL     &to 1
